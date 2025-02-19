@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}Baixar{% endblock %}
+
+{% block content %}
+<div class="max-w-md mx-auto mt-8 p-6 bg-green-500 text-black rounded-lg shadow-md">
+    <h1 class="text-xl font-bold mb-4">Qual playlist?</h1>
+    <form id="baixar_form">
+        <div>
+            <label for="plataforma_baixar" class="block text-sm font-medium text-gray-700">Escolha a plataforma:</label>
+            <select 
+                id="plataforma_baixar" 
+                name="plataforma_baixar"
+                hx-post="/baixar?step=1"
+                hx-target="#playlist_baixar"
+                hx-trigger="change"
+                class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                <option value="">Selecione uma plataforma</option>
+                <option value="youtube">YouTube</option>
+                <option value="spotify">Spotify</option>
+            </select>
+        </div>
+    </form>
+    <div id="playlist_baixar">
+        <!-- o restante será renderizado no back -->
+    </div>
+    
+</div>
+
+{% endblock %}

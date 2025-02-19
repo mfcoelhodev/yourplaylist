@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Erro{% endblock %}
+
+{% block content %}
+<div class="max-w-lg mx-auto bg-yellow-100 border-l-4 border-yellow-500 p-6 my-6 rounded-md">
+    <h2 class="text-2xl font-semibold text-yellow-800">Ocorreu um erro :(</h2>
+    <p class="text-yellow-700 mt-2">
+        {{ message }}
+    </p>
+    <div class="mt-4 flex justify-center bg-green-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+    <a href="/">
+        Voltar
+    </a></div>
+</div>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Start{% endblock %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto bg-green-500 p-6 rounded shadow">
+    <div class="justify-center">
+    <h1 class="text-2xl font-bold mb-4">Conectando Plataformas</h1>
+    </div>
+    <p class="mb-6">
+        Clique no botão abaixo após concluir a autenticação com as plataformas.
+    </p>
+        <!-- icone de carregamento -->
+        <div id="loading" class="flex justify-center items-center space-x-2">
+            <div class="w-6 h-6 border-4 border-t-4 border-gray-300 border-t-blue-500 rounded-full animate-spin"></div>
+            <span class="text-gray-500">Fazendo autenticação...</span>
+        </div>
+        <div class="flex justify-center">
+            <button id="auth-button" class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition" hx-post="/conexao_youtube" hx-target="#loading" hx-swap="innerHTML">
+                Confirmar autenticação
+            </button></div>
+</div>
+{% endblock %}

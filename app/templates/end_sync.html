@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Finalizando{% endblock %}
+{% block content %}
+<div class="max-w-md mx-auto mt-8 p-6 bg-green-500 text-black rounded-lg shadow-md">
+    <h1 class="text-xl font-bold mb-4">Fazendo Sincronização</h1>
+    <div id="transfer-container">
+        <!-- icone de carregamento -->
+        <div id="loading" class="flex justify-center items-center space-x-2">
+            <div class="w-6 h-6 border-4 border-t-4 border-gray-300 border-t-blue-500 rounded-full animate-spin"></div>
+            <span class="text-gray-500">Carregando...</span>
+        </div>
+
+        <!-- essa div faz o swap com htmx do icone de carregamento com a mensagem retornada pelo back -->
+        <div hx-post="/end_sync" 
+             hx-target="#transfer-container" 
+             hx-trigger="load"
+             hx-swap="outerHTML">
+        </div>
+    </div>
+</div>
+{% endblock %}

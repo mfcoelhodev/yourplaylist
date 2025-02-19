@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Start{% endblock %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto bg-green-500 p-6 rounded shadow">
+    <div class="justify-center">
+    <h1 class="text-2xl font-bold mb-4">Welcome to YourPlaylist!</h1>
+    </div>
+    <p class="mb-6">
+        Essa é uma aplicação desktop projetada para ajudar você a transferir, sincronizar e baixar suas playlists.  
+        Clique no botão abaixo para conectar-se às suas plataformas e assumir o controle da sua música!
+    </p>
+
+    <div class="flex justify-center space-x-4">
+        <a href="/conexao_youtube" 
+           class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+            Começar
+        </a>
+    </div>
+</div>
+{% endblock %}
