@@ -9,10 +9,10 @@ Yourplaylist é um app desktop open-source para Windows, feito com o objetivo de
 
 - [Requisitos](#Requisitos)
 - [Guia](#Guia)
-	- [Instalação](#Guia#Instalação)
-	- [Desinstalar](#Guia#Desinstalar)
-	- [Autenticação](#Guia#Autenticação)
-	- [Uso](#Guia#Uso)
+	- [Instalação](#Instalação)
+	- [Desinstalar](#Desinstalar)
+	- [Autenticação](#Autenticação)
+	- [Uso](#Uso)
 - [Projeto](#Projeto)
 	- [Estrutura](#Estrutura)
 - [License](#license)
@@ -64,6 +64,7 @@ https://github.com/user-attachments/assets/aebfc2d8-1d45-4fe8-873f-d9404c6da4d6
 Este projeto utiliza o **Flask** no backend para gerenciar os endpoints e renderizar os templates HTML. No frontend, faz uso do **HTMX** para facilitar a comunicação assíncrona entre cliente e servidor, permitindo atualizações dinâmicas da página sem a necessidade de recarregamento completo. Além disso, utiliza **PyWebView** para integrar a aplicação web em uma interface de desktop.
 ### Estrutura
 
+```plaintext
 YourPlaylist/
 ├── .gitignore                # Arquivos e pastas ignorados pelo Git
 ├── Yourplaylist.vbs          # Script para rodar “yourplaylist.bat” sem o terminal
@@ -100,6 +101,7 @@ YourPlaylist/
 │   └── yt_test.py            # Testes para integração com YouTube
 ├── yourplaylist_config.bat   # Script de instalação
 └── README.md                 # Documentação do projeto
+```
 
 
 # License
