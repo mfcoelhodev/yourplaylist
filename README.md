@@ -39,13 +39,23 @@ Apenas remova o diretório “yourplaylist” da sua máquina.
 
 Siga os passos do vídeo abaixo após clicar no botão “Começar”.
 
-[Ver vídeo](https://github.com/seu-repositorio/caminho/video.mp4)
+
+https://github.com/user-attachments/assets/d6e28fe7-5751-4664-b635-7ce6d44201e9
+
+
+
+
 
 ### Uso
 
 Siga os passos do vídeo abaixo.
 
-[Ver vídeo](https://github.com/seu-repositorio/caminho/video.mp4)
+
+
+https://github.com/user-attachments/assets/aebfc2d8-1d45-4fe8-873f-d9404c6da4d6
+
+
+
 # Projeto
 [(Voltar ao topo)](#table-of-contents)
 
@@ -55,45 +65,41 @@ Este projeto utiliza o **Flask** no backend para gerenciar os endpoints e render
 ### Estrutura
 
 YourPlaylist/
-├── .gitignore                 # Arquivos e pastas ignorados pelo Git  
-├── Yourplaylist.vbs           # Script para rodar “yourplaylist.bat” sem o terminal
-├── __init__.py                # Inicialização do pacote principal  
-│
-├── app/                       # Diretório principal da aplicação  
-│   ├── __init__.py            # Inicialização do módulo Flask  
-│   ├── views.py               # Definição das rotas e lógica das views  
-│   ├── static/                # Arquivos estáticos (imagens, CSS, JS)  
-│   │   └── images/  
-│   │       ├── background.png  
-│   │       └── github-icon.png  
-│   ├── templates/             # Templates HTML renderizados pelo Flask  
-│   │   ├── base.html          # Template base para herança  
-│   │   ├── start.html         # Página inicial  
-│   │   ├── conexao_spotify.html   # Conexão com Spotify  
-│   │   ├── conexao_youtube.html   # Conexão com YouTube  
-│   │   ├── choose_playlists.html  # Escolha de playlists para transferência  
-│   │   ├── sync.html          # Tela de sincronização  
-│   │   ├── transfer.html      # Tela de transferência de playlists  
-│   │   ├── erro.html          # Página de erro genérica  
-│   │   └── ... (outros templates)  
-│
-├── platforms/                 # Módulo para integração com plataformas de streaming  
-│   ├── PlatformInterface.py   # Interface base para serviços de música  
-│   ├── SpotifyPlatform.py     # Implementação para Spotify  
-│   ├── YoutubePlatform.py     # Implementação para YouTube  
-│   ├── cache_script.py        # Script para login no terminal (spotify)
-│   ├── oauth_script.py        # Gerenciamento de autenticação OAuth no terminal (youtube)
-│   ├── platforms_module.py    # Módulo para manipulação das plataformas  
-│   └── __init__.py            # Inicialização do módulo  
-│
-├── requirements.txt           # Dependências do projeto  
-├── run.py                     # Arquivo principal para execução do Flask  
-├── setup.py                   # Configuração para instalação do projeto  
-├── tests/                     # Diretório para testes  
-│   └── yt_test.py             # Testes para YouTube integration  
-│
-├── yourplaylist_config.bat     # Script de instalação
-└── README.md                   # Documentação do projeto
+├── .gitignore                # Arquivos e pastas ignorados pelo Git
+├── Yourplaylist.vbs          # Script para rodar “yourplaylist.bat” sem o terminal
+├── init.py                   # Inicialização do pacote principal
+├── app/                      # Diretório principal da aplicação
+│   ├── __init__.py           # Inicialização do módulo Flask
+│   ├── views.py              # Definição das rotas e lógica das views
+│   ├── static/               # Arquivos estáticos (imagens, CSS, JS)
+│   │   └── images/
+│   │       ├── background.png
+│   │       └── github-icon.png
+│   ├── templates/            # Templates HTML renderizados pelo Flask
+│   │   ├── base.html         # Template base para herança
+│   │   ├── start.html        # Página inicial
+│   │   ├── conexao_spotify.html  # Conexão com Spotify
+│   │   ├── conexao_youtube.html  # Conexão com YouTube
+│   │   ├── choose_playlists.html # Escolha de playlists para transferência
+│   │   ├── sync.html         # Tela de sincronização
+│   │   ├── transfer.html     # Tela de transferência de playlists
+│   │   ├── erro.html         # Página de erro genérica
+│   │   └── ... (outros templates)
+│   ├── platforms/            # Módulo para integração com plataformas de streaming
+│   │   ├── PlatformInterface.py  # Interface base para serviços de música
+│   │   ├── SpotifyPlatform.py    # Implementação para Spotify
+│   │   ├── YoutubePlatform.py    # Implementação para YouTube
+│   │   ├── cache_script.py   # Script para login no terminal (Spotify)
+│   │   ├── oauth_script.py   # Gerenciamento de autenticação OAuth no terminal (YouTube)
+│   │   ├── platforms_module.py   # Módulo para manipulação das plataformas
+│   │   └── __init__.py       # Inicialização do módulo
+├── requirements.txt          # Dependências do projeto
+├── run.py                    # Arquivo principal para execução do Flask
+├── setup.py                  # Configuração para instalação do projeto
+├── tests/                    # Diretório para testes
+│   └── yt_test.py            # Testes para integração com YouTube
+├── yourplaylist_config.bat   # Script de instalação
+└── README.md                 # Documentação do projeto
 
 
 # License
