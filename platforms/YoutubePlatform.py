@@ -37,7 +37,7 @@ class YoutubePlatform(PlatformInterface):
 
         if os.path.exists(file_path):
             self.yt = YTMusic(auth=file_path, oauth_credentials=oauth_credentials)
-            print("Log: Login youtube music foi um sucesso!!!")
+            # print("Log: Login youtube music foi um sucesso!!!")
         else:
             print("Arquivo 'oauth.json' não encontrado.")
             # self.get_oauth(CLIENT_ID, CLIENT_SECRET)

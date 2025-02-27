@@ -1,5 +1,7 @@
 @echo off
 cd /d %~dp0
+
+pip install virtualenv
 REM Cria ambiente virtual se não existir
 if not exist "venv" (
     python -m venv venv

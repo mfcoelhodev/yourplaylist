@@ -97,8 +97,9 @@ def conexao_youtube():
         process.stdin.write("\r\n\n")
         process.stdin.flush()
         time.sleep(3)  
-        stdout, stderr = process.communicate()
-        print(f"stdout: {stdout} and stderr: {stderr}")
+        # para log
+        # stdout, stderr = process.communicate()
+        # print(f"stdout: {stdout} and stderr: {stderr}")
 
         try:
             process.terminate()
@@ -156,7 +157,7 @@ def conexao_spotify():
     else:
         # Cria arquivo cache para fazer requests autenticados 
         url = request.form.get("url")
-        print(f'url: {url}')
+        # print(f'url: {url}')
         processo.stdin.write(f"{url}")
         processo.stdin.flush()
         time.sleep(1)  
