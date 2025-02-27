@@ -1,5 +1,6 @@
+<svg id="d50sy1MOlen" xmlns="http://www.w3.org/2000/svg" width="195.22185516357422" height="35" viewBox="0 0 195.22185516357422 35"><rect width="106.6111068725586" height="35" fill="#4a90e2"/><rect x="106.6111068725586" width="88.61074829101562" height="35" fill="#fce800"/><text x="53.3055534362793" y="17.5" font-size="12" font-family="'Roboto', sans-serif" fill="#FFFFFF" text-anchor="middle" alignment-baseline="middle" letter-spacing="2"></text><text x="150.9164810180664" y="17.5" font-size="12" font-family="'Montserrat', sans-serif" fill="#FFFFFF" text-anchor="middle" font-weight="900" alignment-baseline="middle" letter-spacing="2"></text></svg>
+![made-with-python](https://github.com/user-attachments/assets/8cf469f7-b015-45e8-9997-c8de48fa1381)
 
-[![forthebadge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTUuMjUwMDE1MjU4Nzg5MDYiIGhlaWdodD0iMzUiIHZpZXdCb3g9IjAgMCAxOTUuMjUwMDE1MjU4Nzg5MDYgMzUiPjxyZWN0IHdpZHRoPSIxMDYuNjI1MDA3NjI5Mzk0NTMiIGhlaWdodD0iMzUiIGZpbGw9IiM0YTkwZTIiLz48cmVjdCB4PSIxMDYuNjI1MDA3NjI5Mzk0NTMiIHdpZHRoPSI4OC42MjUwMDc2MjkzOTQ1MyIgaGVpZ2h0PSIzNSIgZmlsbD0iI2UxZDAwNyIvPjx0ZXh0IHg9IjUzLjMxMjUwMzgxNDY5NzI2NiIgeT0iMjEuNSIgZm9udC1zaXplPSIxMiIgZm9udC1mYW1pbHk9IidSb2JvdG8nLCBzYW5zLXNlcmlmIiBmaWxsPSIjRkZGRkZGIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBsZXR0ZXItc3BhY2luZz0iMiI+TUFERSBXSVRIPC90ZXh0Pjx0ZXh0IHg9IjE1MC45Mzc1MTE0NDQwOTE4IiB5PSIyMS41IiBmb250LXNpemU9IjEyIiBmb250LWZhbWlseT0iJ01vbnRzZXJyYXQnLCBzYW5zLXNlcmlmIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iOTAwIiBsZXR0ZXItc3BhY2luZz0iMiI+UFlUSE9OPC90ZXh0Pjwvc3ZnPg==)](https://forthebadge.com)
 
 
 Yourplaylist é um app desktop open-source para Windows, feito com o objetivo de ajudar os usuários a transferirem, sincronizarem e baixarem suas músicas entre o Spotify e o Youtube Music. 
@@ -51,8 +52,10 @@ https://github.com/user-attachments/assets/d6e28fe7-5751-4664-b635-7ce6d44201e9
 Siga os passos do vídeo abaixo.
 
 
+https://github.com/user-attachments/assets/23599e73-581c-42c1-924d-7667b68f793c
 
-https://github.com/user-attachments/assets/aebfc2d8-1d45-4fe8-873f-d9404c6da4d6
+
+
 
 
 
